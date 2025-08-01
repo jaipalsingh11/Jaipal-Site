@@ -1,0 +1,19 @@
+---
+const { Link,  Caption, height } = Astro.props
+
+---
+<div id="Container">
+<img height={height} src={Link} alt="">
+<p>{Caption}</p>
+</div>
+<style>
+  #Container {
+    transform: rotate(2deg);
+  }
+
+img{
+  outline: solid blueviolet;
+
+}
+
+</style>
